@@ -1,0 +1,385 @@
+@font-face {
+    font-family: "Lato";
+    src: url("/fonts/Lato/Lato-Regular.ttf") format("truetype");
+    }
+    
+    
+
+body {
+    margin: 0;
+}
+
+#top {
+    height: 85px; 
+    border: 0; border-bottom: 1px solid #ccc; 
+}
+
+#logo {
+    display: inline;
+    margin: 0 auto;
+    position: relative;
+    margin: 25px;
+	left: 0;
+	cursor: pointer;
+}
+
+#nav_bar {
+    display: inline;
+    position: absolute;
+    list-style-type: none;
+    margin: 30px;
+    left: 25%;
+    font-family: "Lato", sans-serif;
+}
+
+#nav_bar > li {
+    padding-left: 40px;
+    display: inline;
+}
+
+#nav_bar > li > a {
+    text-decoration: none;
+    color: #292929;
+}
+
+.seized_container {
+	margin: 0 261px;
+}
+
+#top_buttons {
+	margin-top: 12px;
+	position: absolute;
+    display: inline;
+	right: 0;
+	width: 260px;
+	right: 260px;
+}
+
+button {
+    cursor: pointer;
+}
+
+#top_buttons > button{
+    font-family: "Lato", sans-serif;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#btnSingIn {
+    background-color: white;
+}
+
+.btnGreenStyle {
+    font-family: "Lato", sans-serif;
+    border: none;
+    padding: 15px 44px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    background-color: #01996D;
+    border-radius: 4px;
+    color: white;
+}
+
+.btnGreenStyle:hover {
+	opacity: 0.9;
+}
+
+#BG {
+	height: 895px;
+	width: 100%;
+	position: relative;
+}
+
+#headline_block {
+	position: absolute;
+    left: 50px;
+    width: 440px;
+    height: 384px;
+    display: inline-block;
+    left: 275px;
+    top: 261px;
+}
+
+
+#headline_block > #header {
+    font-size: 65px;
+    font-weight: bold;
+    color: #01996D;
+    margin: 0px;
+}
+
+#headline_block > #txtAdvice {
+    font-family: "Lato", sans-serif;
+    color: #484848;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+#block2 {
+	margin-top: 180px;
+}
+
+#howItWorks {
+	position: relative;
+}
+
+#howItWorks > #txtHowItWorks {
+	font-family: "Lato", sans-serif;
+	color: #424242;
+	font-size: 24px;
+	display: block;
+	margin: 0;
+}
+
+#howItWorks > #txtTitle {
+	font-family: Georgia serif;
+	color: #01996D;
+	font-size: 50px;
+	display: inline-block;
+	left: 0;
+	margin: 0;
+	width: 585px;
+	font-weight: bold;
+}
+#howItWorks > #txtDescription {
+	font-family: "Lato", sans-serif;
+	position: absolute;
+	top: 20px;
+	right: 0;
+	color: #424242;
+	font-size: 20px;
+	display: inline-block;
+	width: 671px;
+}
+
+.subblock {
+	width: 390px;
+	height: 900px;
+	display: inline-block;
+	position: relative;
+	vertical-align: top;
+	margin-top: 100px;
+}
+
+.subblock > .txtDigit {
+	font-size: 150px;
+	color: rgba(0,60,43,0.2);
+	font-family: Georgia, sans-serif;
+	margin: 0;
+}
+
+.subblock > .txtTip {
+	font-size: 30px;
+	font-weight: bold;
+	position: absolute;
+	top: 70px;
+	left: 40px;
+	font-family: Georgia, sans-serif;
+}
+
+.subblock > .txtDescription {
+	font-family: "Lato", sans-serif;
+	color: #424242;
+	font-size: 20px;
+	height: 100px;
+}
+
+#subblock2 {
+	margin-left: 100px;
+}
+
+#subblock3 {
+	margin-left: 100px;
+}
+
+.subblock > img {
+	margin-top: 30px;
+}
+
+#block3 {
+	background-color: #245852;
+	margin-top: 160px;
+	padding: 0 210px;
+	height: 900px;
+	position: relative;
+}
+
+#block3 > #headline {
+	width: 580px;
+	height: 230px;
+	margin-top: 325px;
+	display: inline-block;
+}
+
+#txtTitle3 {
+	color: white;
+	font-family: Georgia, sans-serif;
+	font-size: 50px;
+	font-weight: bold;
+	display: block;
+}
+
+#txtDescription3 {
+	color: white;
+	font-family: "Lato", sans-serif;
+	font-size: 25px;
+}
+
+#block3_btn1 {
+	margin-top: 25px;
+}
+
+#video_container {
+	margin-top: 230px;
+	display: inline-block;
+	position: absolute;
+}
+
+#video_container > img {
+	border-radius: 3%;
+	width: 895px;
+	height: 505px;
+	object-fit: cover;
+	border: #245852 4px solid;
+}
+
+#block4 > #inner_block {
+	height: 648px;
+	width: 1370px;
+	margin: 120px auto auto auto;
+	position: relative;
+}
+
+#inner_block > #img1 {
+	 display: inline-block;
+	 margin-right: 100px;
+	 margin-left: 43px;
+	 margin-bottom: 73px;
+}
+
+#inner_block > #text_block {
+	width: 580px;
+	height: 413px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#header4 {
+	font-family: "Lato", sans-serif;
+	color: #424242;
+	font-size: 24px;
+	display: block;
+	margin: 0;
+}
+
+#title4 {
+	color: #01996D;
+	font-family: Georgia, sans-serif;
+	font-size: 50px;
+	font-weight: bold;
+	display: block;
+}
+
+#description4 {
+	font-family: "Lato", sans-serif;
+	color: #424242;
+	font-size: 20px;
+	height: 100px;
+}
+
+#inner_block > #card4 {
+	width: 300px;
+	height: 300px;
+	background-color: white;
+	border-radius: 4px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	box-shadow: 2px 2px 10px grey;
+}
+
+#card4 > #header2 {
+	font-family: "Lato", sans-serif;
+	color: black;
+	font-size: 15px;
+	margin: 20px 0 0 0;
+	text-align: center;
+	font-weight: bold;
+}
+
+#card4 > #text_spacer {
+	margin-top: 10px;
+	border-bottom: 1px solid #424242;
+	width: 130px;
+	margin: 10px auto auto;
+}
+
+#card4 > #img2 {
+	margin: 20px 0 0 40%;
+}
+
+#card4 > #txtName {
+	text-align: center;
+	font-family: "Lato", sans-serif;
+	color: black;
+	font-size: 12px;
+}
+
+#card4 > #txtTitle2 {
+	text-align: center;
+	font-family: Georgia, sans-serif;
+	color: black;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#card4 > ul{
+	font-family: "Lato", sans-serif;
+	color: black;
+	font-size: 11px;
+	height: 100px;
+	margin: 0 auto 11% 11%;
+}
+
+#card4 > ul > li {
+	padding-top: 10px;
+}
+
+#block5 {
+	background-color: #245852;
+	margin-top: 160px;
+	padding: 0 210px;
+	height: 654px;
+	position: relative;
+}
+
+#vertical_nav_bar {
+    display: block;
+    position: absolute;
+    list-style-type: none;
+    font-family: "Lato", sans-serif;
+}
+
+#vertical_nav_bar > li {
+    padding-left: 40px;
+    display: inline;
+	font-size: 20px;
+}
+
+#vertical_nav_bar > li > a {
+    text-decoration: none;
+	padding-top: 50px;
+    color: white;
+	display: block;
+}
+
+#block5 > #logo1 {
+	display: inline-block;
+	margin-left: 40px;
+	margin-top: 80px;
+	cursor: pointer;
+}
